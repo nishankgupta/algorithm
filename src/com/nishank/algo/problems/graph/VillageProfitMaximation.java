@@ -15,6 +15,10 @@ import java.util.*;
  *
  * Result: 15 (V0 -> V1 -> V3-> V5) (1->2->4 ->8)
  *
+ * Soln: Prepare adjacency list of each vertex satisfying the criteria. Find all the paths starting from each village
+ * and return the max profit. Store the best path for each village which are already traversed and calculates for
+ * the ones which are not yet traversed
+ *
  * Created by Nishank Gupta on 04-Jul-18.
  */
 public class VillageProfitMaximation {

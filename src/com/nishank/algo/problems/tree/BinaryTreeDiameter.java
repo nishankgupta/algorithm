@@ -4,6 +4,9 @@ import com.nishank.algo.bean.TreeNode;
 
 /**
  * Find the max length between two leaf nodes in a binary tree i.e diameter of a binary tree
+ *
+ * Soln: At each node, recusively get the max length from left and right subtree. Compare the sum of left and right length
+ * with max dia and return the max length+1
  */
 public class BinaryTreeDiameter {
 
