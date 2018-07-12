@@ -1,4 +1,4 @@
-package com.nishank.algo.problems.list;
+package com.nishank.algo.problems.graph;
 
 import java.util.*;
 
