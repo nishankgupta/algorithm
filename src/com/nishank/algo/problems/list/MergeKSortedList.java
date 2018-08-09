@@ -15,6 +15,10 @@ import com.nishank.algo.bean.ListNode;
  * ]
  * Output: 1->1->2->3->4->4->5->6
  * <p>
+ * <p>
+ * Soln: Prepare heap from 1st element of all the lists. Pop out the top and replace it with next element in the list
+ * and heapify. If one of the list, is completed and replace the root with last element in heap and heapify again.
+ * <p>
  * Created by Nishank Gupta on 28-Jul-18.
  */
 public class MergeKSortedList {
